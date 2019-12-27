@@ -1,0 +1,26 @@
+{
+  "name": "simple-3d-game",
+  "version": "1.0.0",
+  "description": "just game",
+  "main": "entry.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "webpack-dev-server --mode development --open",
+    "wpw": "npx webpack --config webpack.config.js --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "FreeMan",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "babylonjs-loaders": "^4.0.3",
+    "cannon": "^0.6.2",
+    "express": "^4.17.1"
+  }
+}
